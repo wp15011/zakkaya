@@ -1,0 +1,306 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #888888;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #888888;
+}
+
+.clear {
+	clear: both;
+}
+
+p {
+	line-height: 140%;
+}
+
+body {
+	background: #feedde;
+	color: #888888;
+	font-size: 13px;
+}
+
+#outline {
+	width: 940px;
+	/*height: 1000px;*/
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+header {
+	width: 900px;
+	margin: 0 auto;
+	height: 85px;
+	border: 1px solid #ffffff;
+	background: url(bg_img/header.png) repeat-x 0% 100%;
+	position: relative;
+}
+
+header h1 {
+	float: left;
+}
+
+header p {
+	float: right;
+	margin-top: 12px;
+}
+
+nav {
+	float: right;
+	display: table;
+	position: absolute;
+	right: 0;
+	bottom: 12px;
+}
+
+nav ul li {
+	display: table-cell;
+	width: 121px;
+	height: 40px;
+	text-align: center;
+	/*vertical-align: middle;*/
+	background: url(bg_img/menu2.png);
+}
+
+nav ul li:first-child {
+	background: rgba(255,165,0,0.8) url(bg_img/menu1.png);
+}
+
+#siro a, #siro a:visited {
+	color: #ffffff;
+}
+
+
+nav ul li:last-child {
+	background: url(bg_img/menu3.png);
+}
+
+nav a {
+	display: block;
+	width: 121px;
+	height: 40px;
+	padding-top: 18px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+nav ul li:hover ,nav ul li:last-child:hover {
+	background-color: rgba(255,165,0,0.8);
+}
+
+nav ul li a:hover ,nav ul li a:last-child:hover{
+	color: #ffffff;
+}
+
+#topbox {
+	width: 920px;
+	height: 305px;
+	margin: 20px auto 40px;
+	/*border: 1px solid #000;*/
+	background: url(bg_img/main-back.png) no-repeat;
+}
+
+#topbox img {
+	margin: 30px 0 0 20px;
+	float: left;
+}
+
+#newinfo {
+	width: 268px;
+	height: 275px;
+	float: right;
+	margin: 30px 20px 0 22px;
+}
+
+.bb {
+	width: 100%;
+	border-bottom: 1px dotted #000000;
+}
+
+#newinfo h2 {
+	background: #ffa500 url(bg_img/icon1.png) no-repeat 3px 3px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	width: 268px;
+	height: 22px;
+	padding: 4px 0 0 23px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#newinfo h3 {
+	background: url(bg_img/icon3.png) no-repeat 0 2px;
+	font-weight: bold;
+	color: #663300;
+	margin: 8px 0 8px 8px;
+	padding: 0 0 0 14px;
+}
+
+#newinfo p {
+	margin-left: 20px;
+}
+
+#newinfo  time {
+	display: block;
+	text-align: right;
+	margin: 3px 0;
+}
+
+#btmbox {
+	width: 100%;
+	height: 550px;
+}
+
+#r-box {
+	width: 307px;
+	height: 500px;
+	background: #F0E68C;
+	margin-left: 20px;
+	float: left;
+}
+
+#rb-in {
+	width: 265px;
+	/*height: 550px;*/
+	margin: 0 auto;
+}
+
+#rb-in h2 {
+	background: #333300 url(bg_img/icon2.png) no-repeat 4px 4px;
+	width: 80px;
+	height: 22px;
+	/*height: 22px;*/
+	font-size: 15px;
+	/*font-weight: bold;*/
+	font-family: "Arial Black";
+	color: #ffffff;
+	margin-top: 10px;
+	padding: 1px 0 1px 30px;
+}
+
+#rb-in img {
+	margin: 10px 0;
+}
+
+#rb-in h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#rb-in p {
+	font-size: 14px;
+	margin: 5px 0;
+	line-height: 120%;
+}
+
+#l-box {
+	width: 555px;
+	/*height: 550px;*/
+	/*border: 1px solid #000;*/
+	margin-right: 25px;
+	float: right;
+}
+
+.n-midashi {
+	background: #008080 url(bg_img/icon1.png) no-repeat 5px 5px;
+	width: 100%;
+	height: 25px;
+	font-family: "メイリオ";
+}
+
+.n-midashi h2 {
+	font-size: 16px;
+	color: #ffffff;
+	padding: 2px 0 2px 30px;
+	float: left;
+}
+
+.n-midashi p {
+	color: #ffffff;
+	float: right;
+	font-size: 11px;
+	padding: 5px 5px 5px 0;
+}
+
+#l-box img {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.nb-kome {
+	/*border: 1px solid #0000ff;*/
+	width: 140px;
+	height: 140px;
+	float: right;
+	margin: 0 20px 0 5px;
+}
+
+.ichidan {
+	width: 100%;
+	height: 180px;
+	border-top: 2px solid #888888;
+	margin-top: 2px;
+}
+
+.nidan {
+	width: 100%;
+	height: 150px;
+	border-top: 1px dotted #000;
+}
+
+.sandan {
+	width: 100%;
+	height: 150px;
+	border-top: 1px dotted #000;
+}
+
+.n-lb {
+	width: 50%;
+	height: 140px;
+	/*border: 1px solid #ff0000;*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 15px;
+}
+
+.n-rb {
+	width: 50%;
+	height: 140px;
+	/*border: 1px solid #00ff00;*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: right;
+	margin-top: 15px;
+}
+
+.zakkaya {
+	letter-spacing: 2px;
+}
+
+footer {
+	width: 100%;
+	height: 39px;
+	background: url("bg_img/footer.png");
+	text-align: center;
+	padding-top: 13px;
+	color: #ffffff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
